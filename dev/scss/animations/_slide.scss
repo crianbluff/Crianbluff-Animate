@@ -1,0 +1,65 @@
+// Slide left
+@mixin slideLeft($time) {
+  animation: slideleft $time;
+  @keyframes slideleft {
+    from {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+}
+
+// Slide right
+@mixin slideRight($time) {
+  animation: slideright $time;
+  @keyframes slideright {
+    from {
+      transform: translate3d(100%, 0, 0);
+    }
+  }
+}
+
+// Slide top
+@mixin slideTop($time) {
+  animation: slidetop $time;
+  @keyframes slidetop {
+    from {
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+}
+
+// Slide bottom
+@mixin slideBottom($time) {
+  animation: slidebottom $time;
+  @keyframes slidebottom {
+    from {
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+}
+
+// Slide down
+@mixin slideDown($time, $height) {
+  animation: slidedown $time forwards;
+  max-height: 0;
+  overflow: hidden;
+
+  @keyframes slidedown {
+    to {
+      max-height: $height;
+    }
+  }
+}
+
+// Slide up
+@mixin slideUp($time, $height) {
+  animation: slideup $time forwards;
+  max-height: $height;
+  overflow: hidden;
+
+  @keyframes slideup {
+    to {
+      max-height: 0;
+    }
+  }
+}
