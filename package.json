@@ -1,5 +1,5 @@
 {
-  "name": "Crianbluff-Animate",
+  "name": "crianbluff-animate",
   "version": "1.0.0",
   "description": "Simple library for css animations. Inspired animate.css",
   "main": "gulpfile.babel.js",
