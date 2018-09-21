@@ -22,7 +22,7 @@ Puedes usar Crianbluff-Animate con css o con sass (recomendable).
 ## Con CSS
 Descarga el archivo `public/css/crianbluff-animate.css` e incluyelo en tu proyecto.
 Luego puedes agregar las siguientes clases a los elementos que deseas que se animen:
-```
+```language-css
 .fadein o fade-in
 .fadeout o fade-out
 .slideleft o slide-left
@@ -45,7 +45,7 @@ Luego puedes agregar las siguientes clases a los elementos que deseas que se ani
 * Importe `crianbluff-animate/crianbluff-animate` en su proyecto.
 * Establezca la variable `$CrianbluffAnimateHelpers: false` parar compilar solo lo necesario
 * Los mixins disponibles son:
-```
+```language-scss
 fadeIn($time)
 fadeOut($time)
 slideLeft($time)
