@@ -42,7 +42,7 @@ Luego puedes agregar las siguientes clases a los elementos que deseas que se ani
 
 ## Con SASS
 * Instale Crianbluff-Animate con el comando `npm install --save-dev Crianbluff-Animate`
-* Establezca la variable `$CrianbluffAnimateHelpers: false` parar compilar solo lo necesario (debe hacerlo antes de la importar Crianbluff-Animate).
+* Establezca la variable `$CrianbluffAnimateHelpers: false` parar compilar solo lo necesario (debe hacerlo antes de importar Crianbluff-Animate).
 * Importe `crianbluff-animate/crianbluff-animate` en su proyecto.
 * Los mixins disponibles son:
 ```language-scss
